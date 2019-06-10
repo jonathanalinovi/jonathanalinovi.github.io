@@ -1,0 +1,54 @@
+ body {
+    background-color: black	;
+  }
+
+.name{
+	font-family: 'Major Mono Display', monospace;
+	/*font-family: courier;*/
+	font-size: 50px;
+	text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .name {
+  	font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .name {
+  	font-size: 30px;
+  }
+
+  #nameMid {
+  	display: none !important;
+  }
+}
+
+#nameTop {
+	opacity: .1;
+	transform: translate(0px,150px);
+}
+
+#nameMid {
+	opacity: .25;
+	transform: translate(0px,200px);
+}
+
+#namePPU {
+	opacity: .375;
+	transform: translate(0px, 85px);
+}
+#namePU{
+	opacity: .475;
+	transform: translate(0px,60px);
+}
+
+#nameFinal{
+	opacity: 1;
+}
+
+#spacer {
+	opacity: 0;
+}
+
