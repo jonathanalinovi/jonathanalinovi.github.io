@@ -52,3 +52,14 @@
 	opacity: 0;
 }
 
+#portfolio {
+	font-family: 'Major Mono Display', monospace;
+	color: white;
+	position: inline-block;
+	text-align: center;
+	opacity: 1;
+}
+
+#portfolio a:visited {
+	color:white;
+}
