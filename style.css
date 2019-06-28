@@ -1,7 +1,11 @@
- body {
-    background-color: black	;
-  }
+html {
+    height: 100%;
+    } 
 
+body{
+
+  background-image: radial-gradient(closest-side at 50% 71%, white 3%, black 35%);
+	}
 .name{
 	font-family: 'Major Mono Display', monospace;
 	/*font-family: courier;*/
@@ -54,12 +58,12 @@
 
 #portfolio {
 	font-family: 'Major Mono Display', monospace;
-	color: white;
+	color:#E7E5BE;
 	position: inline-block;
 	text-align: center;
 	opacity: 1;
 }
 
 #portfolio a:visited {
-	color:white;
+	color:#E7E5BE;
 }

@@ -16,6 +16,29 @@ function spinAll() {
 	spinTop(13);
 	spinTop(14);
 	spinTop(15);
+	fadeIn();
+}
+
+function fadeIn() {
+	//grab the portfolio elemetn
+	var element = document.getElementById("portfolio");
+	//assign the style attribute "opacity" to variable oldOpacity
+	var oldOpacity = element.style.opacity;
+	console.log("oldOpacity is typeof " + typeof oldOpacity);
+	console.log("oldopacity is " + oldOpacity);
+	//convert the string to a float and add .01 to it
+	var newOpacity = parseFloat(oldOpacity);
+	newOpacity += .01;
+	//if it's already at 1, we're done fading in
+	console.log("newOpacity is " + newOpacity);
+	if (newOpacity >= 1) {
+		return;
+	}
+	//otherwise replace the opacity with the newOpacity, wait a few ms and then run the fx again
+	else {
+		document.getElementById("portfolio").style.opacity = newOpacity;
+		setTimeout(fadeIn, 40);
+	}
 }
 
 function spinTop(index) {
@@ -106,9 +129,13 @@ function randomColor(){
 	//soft rainbow
 	//var colorArray = ["LIGHTCORAL", "DARKORANGE", "GOLD", "YELLOWGREEN", "LIGHTSKYBLUE", "SLATEBLUE", "VIOLET", "PALEVIOLETRED","DARKSEAGREEN"];
 	//rgb
-	var colorArray = ["red", "blue", "green", "red", "blue", "green", "red", "blue","green"];
+	//var colorArray = ["red", "blue", "green", "red", "blue", "green", "red", "blue","green"];
 	//psychedelic
 	//var colorArray = ["#fd00ff", "#fdff00", "#00ff38", "#00f9ff", "	#3c00ff"];
+	//name in lights
+	var colorArray = [ "#E7E5BE","#E7E5BE","#E7E5BE","#E7E5BE", "#C6483A"];
+	//name in red velvet
+	//var colorArray = [ "#E7E5BE","#C6483A","#C6483A", "#C6483A"];
 
 	var i = Math.floor(Math.random()*colorArray.length);
 	var rColor = colorArray[i];
