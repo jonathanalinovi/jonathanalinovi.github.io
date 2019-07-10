@@ -4,7 +4,9 @@ html {
 
 body{
 
-  background-image: radial-gradient(closest-side at 50% 71%, white 3%, black 35%);
+/*  background-image: radial-gradient(closest-side at 50% 71%, white 3%, black 35%);
+*/
+background-color: white;
 	}
 .name{
 	font-family: 'Major Mono Display', monospace;
@@ -58,12 +60,12 @@ body{
 
 #portfolio {
 	font-family: 'Major Mono Display', monospace;
-	color:#E7E5BE;
+	color: blue;
 	position: inline-block;
 	text-align: center;
 	opacity: 1;
 }
 
 #portfolio a:visited {
-	color:#E7E5BE;
+	color: blue;
 }

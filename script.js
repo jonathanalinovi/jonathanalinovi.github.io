@@ -127,13 +127,13 @@ function finalDrop(index) {
 
 function randomColor(){
 	//soft rainbow
-	//var colorArray = ["LIGHTCORAL", "DARKORANGE", "GOLD", "YELLOWGREEN", "LIGHTSKYBLUE", "SLATEBLUE", "VIOLET", "PALEVIOLETRED","DARKSEAGREEN"];
+	var colorArray = ["LIGHTCORAL", "DARKORANGE", "GOLD", "YELLOWGREEN", "LIGHTSKYBLUE", "SLATEBLUE", "VIOLET", "PALEVIOLETRED","DARKSEAGREEN"];
 	//rgb
 	//var colorArray = ["red", "blue", "green", "red", "blue", "green", "red", "blue","green"];
 	//psychedelic
 	//var colorArray = ["#fd00ff", "#fdff00", "#00ff38", "#00f9ff", "	#3c00ff"];
 	//name in lights
-	var colorArray = [ "#E7E5BE","#E7E5BE","#E7E5BE","#E7E5BE", "#C6483A"];
+	//var colorArray = [ "#E7E5BE","#E7E5BE","#E7E5BE","#E7E5BE", "#C6483A"];
 	//name in red velvet
 	//var colorArray = [ "#E7E5BE","#C6483A","#C6483A", "#C6483A"];
 
