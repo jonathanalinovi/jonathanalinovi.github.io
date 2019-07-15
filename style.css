@@ -11,7 +11,7 @@ background-color: white;
 .name{
 	font-family: 'Major Mono Display', monospace;
 	/*font-family: courier;*/
-	font-size: 50px;
+	font-size: 3em;
 	text-align: center;
 }
 
@@ -61,6 +61,7 @@ background-color: white;
 #portfolio {
 	font-family: 'Major Mono Display', monospace;
 	color: blue;
+	font-size: 1em;
 	position: inline-block;
 	text-align: center;
 	opacity: 1;
