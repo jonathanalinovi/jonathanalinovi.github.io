@@ -17,6 +17,7 @@ function spinAll() {
 	spinTop(14);
 	spinTop(15);
 	fadeIn();
+	colorReel();
 }
 
 function fadeIn() {
@@ -140,6 +141,13 @@ function randomColor(){
 	var i = Math.floor(Math.random()*colorArray.length);
 	var rColor = colorArray[i];
 	return rColor;
+}
+
+function colorReel(){
+	var color = randomColor();
+	document.getElementById('reel').style.color = color;
+	color = randomColor();
+	document.getElementById('password').style.color = color;
 }
 
 function randomChar(){
