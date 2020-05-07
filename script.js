@@ -145,8 +145,7 @@ function randomColor(){
 
 function colorReel(){
 	var color = randomColor();
-	document.getElementById('reel').style.color = color;
-	color = randomColor();
+	//document.getElementById('reel').style.color = color;
 	document.getElementById('password').style.color = color;
 }
 
