@@ -17,6 +17,7 @@ function spinAll() {
 	spinTop(14);
 	spinTop(15);
 	fadeIn();
+	colorEmail();
 	colorReel();
 }
 
@@ -150,6 +151,12 @@ function colorReel(){
 	document.getElementById('password2').style.color = color;
 	//sloppy but also changing email color here. this should move
 	//to its own function
+	document.getElementById('email').style.color = color;
+}
+
+
+function colorEmail(){
+	var color = randomColor();
 	document.getElementById('email').style.color = color;
 }
 
