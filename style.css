@@ -59,7 +59,8 @@ background-color: white;
 }
 
 #portfolio {
-	font-family: 'Major Mono Display', monospace;
+	/*font-family: 'Major Mono Display', monospace;*/
+	font-family:courier;
 	color: blue;
 	font-size: 1em;
 	position: inline-block;
