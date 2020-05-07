@@ -149,9 +149,6 @@ function colorReel(){
 	//document.getElementById('reel').style.color = color;
 	document.getElementById('password').style.color = color;
 	document.getElementById('password2').style.color = color;
-	//sloppy but also changing email color here. this should move
-	//to its own function
-	document.getElementById('email').style.color = color;
 }
 
 
